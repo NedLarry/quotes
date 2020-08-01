@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main{
+            width: 310px;
+            height: 100px;
+            color: grey;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: monospace;
+            font-weight: bold;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        p {
+            text-overflow: clip;
+        }
+        #mainText{
+            color: black;
+        }
+        #author{
+            font-style: italic;
+            font-size: smaller;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <main class="main">
+        <p id="mainText">Loading...</p>
+        <p id="author" ></p>
+    </main>
+
+
+    <script src="/popup.js">
+
+    </script>
+</body>
+</html>
